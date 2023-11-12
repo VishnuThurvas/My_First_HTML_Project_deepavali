@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            background-color: violet; /* Set your desired background color */
+            margin: 0; /* Remove default margin for a cleaner look */
+        }
+        h1 {
+            font-size: 30px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 23px;
+            margin-left: 80px;
+        }
+        #content {
+            display: flex;
+            align-items: center;
+            background-color: yellow; 
+        }
+        img {
+            max-width: 50%;
+            height: auto;
+        }
+        h2 {
+            text-align: center;
+        }
+        #text-content {
+            flex: 1;
+            padding: 20px;
+        }
+        h3 {
+            margin-top: 20px; /* Add margin-top to create space before the first word */
+        }
+        #bottom-center {
+            text-align:center;
+        }
+           
+        #bottom-center img{
+            display:block;
+            margin: 0 auto;
+        }
+        @media only screen and (max-width: 600px) {
+    #content {
+        flex-direction: column; /* Stack content vertically on small screens */
+    }
+    #text-content {
+        margin-top: 20px; /* Add spacing between image and text on small screens */
+    }
+}
+.vishnu{ 
+    border:1px solid black;
+    width : 500px;
+    position : relative ;
+    bottom:150px;
+    font-family: monospace;
+    font-weight: 700;
+    align-items: center;
+    background-color:lightgreen;
+}
+.minion{
+    position:relative;
+    left : 70px;
+    top:50px;
+}
+.krishna{
+
+    border : 1px solid black;
+    width : 500px;
+    position : relative;
+    bottom : 350px;
+    left:1100px;
+    font-family:monospace;
+    font-weight: 700;
+    align-items:left;
+    background-color:lightgreen;
+
+}
+    </style>
+</head>
+<body>
+
+    <h1>Wishing You all a prosperous <span style="color:red">Deepavali</span></h1>
+    <p>Wishing you all a Happy Deepavali! May the light of this festival bring joy, love, and prosperity to illuminate your lives. 🪔✨</p>
+
+    <div id="content">
+        <img src="deepavali.png" alt="Deepavali Image" width="500" height="400">
+
+        <div id="text-content">
+            <h3>As the radiant festival of lights, Deepavali, illuminates our lives, I  heartfelt wishes for joy and prosperity to you and your loved ones. May the glow of diyas dispel darkness, and may the warmth of celebrations fill your hearts with happiness. In the spirit of this auspicious occasion, let us cherish the triumph of light over darkness and good over evil. As you gather with family and friends to celebrate, may the festivities be filled with laughter, love, and the spirit of togetherness.</h3>
+        </div>
+    </div>
+
+    <div id="bottom-center">
+        <img class="minion" src="hello world.png" width="500"height="450" >
+    </div>
+    <div class="vishnu">
+        <p>"Wishing you a Diwali filled with joy and light, may it sparkle with laughter and delight. Stay safe in the festive glow, and when celebrations flow. Don't forget to invite me  make this Diwali a memory to show!"</p>
+    </div>
+    <div class="krishna">
+        <p>"Deepavali  celebrates the victory of light over darkness. Rooted in Hindu mythology, it marks Lord Rama's return after defeating Ravana. The festival symbolizes the triumph of good over evil and the illumination of knowledge in our lives May this Deepavali bring prosperity and enlightenment to all."
+</p></div>
+
+</body>
+</html>
